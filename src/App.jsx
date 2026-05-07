@@ -10,7 +10,7 @@ import Recipe from "./pages/Recipe";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/react-food">
       <div className="flex flex-col min-h-screen">
         <Header />
         <main className="max-w-7xl w-full mx-auto flex-1 py-7">
